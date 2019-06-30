@@ -1,0 +1,89 @@
+body,
+#root {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    user-select:none;
+    cursor:default;
+    background-image:url('space.gif');
+    background-size: 220vw 170vw;
+    background-repeat: no-repeat;
+    overflow:hidden;
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    color:white;
+}
+@media screen and (min-width:1024px){
+  body,#root{
+    background-size:cover;
+    
+  }
+}
+
+.bg,.hina,.circle,.cafe,.icon{
+  position:absolute;
+  will-change:transform;
+  align-items:center;
+  top:20%;
+  margin:0 auto;
+}
+.bg{
+  width:90vw;
+  height:60vw;
+  left:14.5vw;
+}
+.hina{
+  top:40%;
+  left:40%;
+}
+.circle{
+  top:45%;
+  left:40%;
+  min-width:20ch;
+  width:25vw;
+  max-width:25ch;
+  
+}
+.cafe{
+  top:70%;
+  left:45%;
+  min-width:20ch;
+  width:25vw;
+  max-width:25ch; 
+}
+.icon{
+  z-index:-1;
+  top:45%;
+  left:19%;
+}
+.sayo{
+  min-width:20ch;
+  width:25vw;
+  max-width:25ch;
+  
+ 
+}
+.earth{ 
+  min-width:40ch;
+  width:50vw;  
+  max-width:62ch;
+  margin-left: 20vw;
+  
+}
+.hina{
+  min-width:20ch;
+  width:20vw;
+  max-width:25ch;
+}
+
+.container{
+  width:100%;
+  height:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  
+}
